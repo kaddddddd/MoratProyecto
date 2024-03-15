@@ -1,0 +1,127 @@
+.header {
+    text-align: center;
+    background-color: #bf66bb;
+    padding: 5px;
+  }
+  
+  .header img {
+    max-width: 200px;
+    vertical-align: middle;
+  }
+  
+  .header h1 {
+    color: #242424;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-container {
+    background-color: #a34da3;
+    text-align: center;
+  }
+  
+  .menu {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu li a:hover {
+    background-color: #daa3ea;
+  }
+  
+  .footer {
+    background-color: #a34da3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .datos {
+    color: #fff;
+  }
+  
+  .redes-sociales img {
+    width: 30px;
+    margin: 0 5px; /* Espacio entre los iconos */
+
+  }
+
+
+  /* galeria */
+
+.spacer {
+  height: 20px; /* Ajusta la altura según sea necesario */
+}
+
+/* Ajustes adicionales para el encabezado y el pie de página si es necesario */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.spacer {
+  height: 20px; /* Espacio entre las secciones */
+}
+
+.container {
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido en la pantalla */
+}
+
+/* Ajustes adicionales para el encabezado y el pie de página si es necesario */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Estilos para el resto de tu contenido */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr)); /* Tamaño de los contenedores y 3 por fila */
+  gap: 20px;
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.grid-item {
+  text-align: center;
+  background-color: #5aab62;
+  border-radius: 10px;
+  padding: 10px; /* Reducir el relleno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: 200px; /* Establece una altura fija para las imágenes */
+  object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  border-radius: 10px; /* Ajusta el radio de borde para que coincida con el contenedor */
+}
+
+.grid-item p {
+  font-family: Arial, sans-serif;
+  margin-top: 5px; /* Reducir el margen superior */
+  color: #444;
+}

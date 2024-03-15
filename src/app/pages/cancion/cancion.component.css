@@ -1,0 +1,179 @@
+.header {
+    text-align: center;
+    background-color: #bf66bb;
+    padding: 5px;
+  }
+  
+  .header img {
+    max-width: 200px;
+    vertical-align: middle;
+  }
+  
+  .header h1 {
+    color: #242424;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-container {
+    background-color: #a34da3;
+    text-align: center;
+  }
+  
+  .menu {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu li a:hover {
+    background-color: #daa3ea;
+  }
+  
+  .footer {
+    background-color: #a34da3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .datos {
+    color: #fff;
+  }
+  
+  .redes-sociales img {
+    width: 30px;
+    margin: 0 5px; /* Espacio entre los iconos */
+  }
+
+  /* Estilos para el contenido principal */
+.contenido {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contenido h2 {
+  color: #333; /* Color del texto */
+  font-size: 24px;
+}
+
+.contenido p {
+  color: #666; /* Color del texto */
+  font-size: 16px;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.card,
+.playlist-container {
+  width: 300px;
+  margin: 0 10px; /* Espacio entre las tarjetas */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.playlist-container {
+  background-color: #0f3741;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+}
+
+.playlist-header {
+  padding: 20px;
+  text-align: center;
+}
+
+.playlist-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.playlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlist-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #9b0ade;
+  transition: background-color 0.3s;
+}
+
+.playlist-item:last-child {
+  border-bottom: none;
+}
+
+.playlist-item:hover {
+  background-color: #bf66bb;
+}
+
+.song-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.song-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.song-artist {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.song-duration {
+  margin-left: auto;
+}
+
+.spacer {
+  height: 20px; /* Espacio entre las secciones */
+}

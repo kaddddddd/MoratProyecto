@@ -1,0 +1,173 @@
+.header {
+  text-align: center;
+  background-color: #bf66bb;
+  padding: 5px;
+}
+
+.header img {
+  max-width: 200px;
+  vertical-align: middle;
+}
+
+.header h1 {
+  color: #242424;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+}
+
+.menu-container {
+  background-color: #a34da3;
+  text-align: center;
+}
+
+.menu {
+  display: inline-block;
+  padding: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu li a:hover {
+  background-color: #daa3ea;
+}
+
+.footer {
+  background-color: #a34da3;
+  padding: 20px;
+  text-align: center;
+}
+
+.datos {
+  color: #fff;
+}
+
+.redes-sociales img {
+  width: 30px;
+  margin: 0 5px; /* Espacio entre los iconos */
+}
+
+/* Estilos para el contenido principal */
+.contenido {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.contenido h2 {
+color: #333; /* Color del texto */
+font-size: 24px;
+}
+
+.contenido p {
+color: #666; /* Color del texto */
+font-size: 16px;
+}
+
+/* Estilos para el contenedor principal */
+.main {
+max-width: 1000px; /* Ancho máximo del contenido */
+margin: 0 auto; /* Centrar el contenido */
+padding: 20px; /* Espaciado alrededor del contenido */
+display: flex; /* Utilizar flexbox para disposición */
+justify-content: space-around; /* Espacio entre los elementos */
+flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+font-family: Arial, sans-serif;
+}
+
+/* Estilos para cada video */
+.video {
+text-align: center; /* Centrado */
+margin-bottom: 20px; /* Espacio entre videos */
+}
+
+.video iframe {
+width: 480px; /* Ancho del video */
+height: 270px; /* Alto del video */
+}
+
+
+
+/* Estilos para los integrantes */
+.integrantes {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+font-family: Arial, sans-serif;
+background-color: #f0f0f0; /* Color de fondo */
+padding: 20px; /* Añade un poco de espacio alrededor de los integrantes */
+}
+
+.integrante {
+text-align: center;
+margin: 10px;
+}
+
+.integrante img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.integrante h3 {
+color: #333; /* Color del texto */
+font-size: 20px;
+margin-top: 10px;
+}
+
+.integrante p {
+color: #666; /* Color del texto */
+font-size: 14px;
+}
+
+
+/* Estilos para la sección de carrera */
+.carrera {
+display: flex;
+align-items: center;
+margin-top: 40px;
+padding: 0 20px; /* Añade relleno a los lados para alejar del borde */
+}
+
+/* Estilos para la imagen */
+.carrera-img {
+margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.carrera-img img {
+width: 500px;
+border-radius: 10px; /* Redondea las esquinas de la imagen */
+}
+
+/* Estilos para el texto */
+.carrera-content {
+font-family: Arial, sans-serif; /* Fuente Arial */
+}
+
+.carrera h2 {
+color: #333; /* Color del título */
+font-size: 24px;
+margin-bottom: 10px;
+text-transform: uppercase; /* Convierte el texto del título en mayúsculas */
+text-align: center; /* Centra solo el título */
+}
+
+.carrera p {
+color: #666; /* Color del texto */
+font-size: 16px;
+line-height: 1.5; /* Espacio entre líneas */
+}
